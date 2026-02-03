@@ -1,0 +1,43 @@
+# Dependencies
+**/node_modules/
+
+# Environment (never commit secrets)
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+.env.test
+*.env
+
+# Build outputs
+dist/
+build/
+.vite/
+
+# Logs and temp
+*.log
+logs/
+*.tmp
+*.temp
+.cache/
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Testing
+coverage/
+.nyc_output/
+*.lcov
+
+# Optional: lock files (uncomment if you want to ignore)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
